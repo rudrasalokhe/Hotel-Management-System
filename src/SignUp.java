@@ -177,7 +177,7 @@ public class SignUp extends javax.swing.JFrame {
         
         // Reset visibility and show signup form again
         setVisible(false);
-        new SignUp().setVisible(true);
+        new login().setVisible(true);
     }
     }//GEN-LAST:event_jButton2ActionPerformed
 

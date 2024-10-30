@@ -157,7 +157,7 @@ public class manageRoom extends javax.swing.JFrame {
         
         // Refresh the manageRoom window
         setVisible(false);
-        new manageRoom().setVisible(true);
+        new home().setVisible(true);
 
     } catch (Exception e) {
         JOptionPane.showMessageDialog(null, "Error adding room: " + e.getMessage());
